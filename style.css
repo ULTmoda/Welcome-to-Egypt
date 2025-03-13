@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
+body{
+    font-family: 'Lucida Handwriting Std';
+    margin: 5px;
+    
+}
+
+li{
+   list-style: none; display: inline-block;
+   color: white;
+   
+}
+
+
+li a{
+  font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-weight: bold;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+border-radius: 10px;
+}
+p{
+    font-size: 18px;
+}
+table,tr,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: palegoldenrod;
+}
+
+nav ul{
+padding: 10px 10px;
+background: orange;
+border-radius: 20px;
+word-spacing: 10px;
+height: 20px;
+}
+iframe{
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container{
+    background-color: orange;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    animation: mymove 5s infinite;
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 15px;
+    border: solid 2px black;
+    
+}
+.moda{
+    background-color: peachpuff;
+}
+input[type="submit"],input[type="reset"]{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fbfbfb;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
